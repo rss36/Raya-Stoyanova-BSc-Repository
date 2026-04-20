@@ -1,0 +1,18 @@
+! r2SCAN-3c OPT FREQ CPCM DefGrid3
+
+%pal
+  nprocs 4
+end
+
+%maxcore 3000
+
+%cpcm
+  epsilon 78.30
+  refrac  1.3330
+end
+
+* xyz 0 1
+  C         -3.4479       -0.3792       -1.1553
+  C         -3.1917        0.1215        0.2517
+  [...coordinates for all atoms...]
+*
